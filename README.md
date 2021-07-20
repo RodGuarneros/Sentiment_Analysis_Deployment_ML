@@ -9,13 +9,13 @@
 
 The web app is available at: https://rodguarneros.github.io/Sentiment_Analysis_Deployment_ML/ 
 
-#### The Web App looks like this:
+### The Web App looks like this:
 ![Result1.jpg](https://github.com/RodGuarneros/Sentiment_Analysis_Deployment_ML/blob/main/images/Result1.jpg)
 
-#### If you write a positive movie review up, the result is:
+### If you write a positive movie review up, the result is:
 ![Result2.jpg](https://github.com/RodGuarneros/Sentiment_Analysis_Deployment_ML/blob/main/images/Result2.jpg)
 
-#### If you write a negative movie review up, the result is:
+### If you write a negative movie review up, the result is:
 ![Result3.jpg](https://github.com/RodGuarneros/Sentiment_Analysis_Deployment_ML/blob/main/images/Result3.jpg)
 
 
@@ -94,11 +94,11 @@ Database:
 }
 
 ### Libraries:
-[PyTorch](https://pytorch.org/)
-[BeautifulSoup](https://pypi.org/project/beautifulsoup4/)
+- [PyTorch](https://pytorch.org/)
+- [BeautifulSoup](https://pypi.org/project/beautifulsoup4/)
 
 ### Cloud Computing
-[Amazon Web Services (AWS)](https://aws.amazon.com/es/)
-[AWS SageMaker](https://aws.amazon.com/es/sagemaker/)
-[AWS Lambda](https://aws.amazon.com/es/lambda/)
-[AWS API GATEWAY](https://aws.amazon.com/es/api-gateway/)
+- [Amazon Web Services (AWS)](https://aws.amazon.com/es/)
+- [AWS SageMaker](https://aws.amazon.com/es/sagemaker/)
+- [AWS Lambda](https://aws.amazon.com/es/lambda/)
+- [AWS API GATEWAY](https://aws.amazon.com/es/api-gateway/)
