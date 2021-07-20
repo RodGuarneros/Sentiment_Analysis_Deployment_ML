@@ -96,6 +96,9 @@ Database:
 ### Libraries:
 - [PyTorch](https://pytorch.org/)
 - [BeautifulSoup](https://pypi.org/project/beautifulsoup4/)
+- [Scikit-learn](https://scikit-learn.org/stable/)
+- [NLTK](https://realpython.com/python-nltk-sentiment-analysis/)
+- [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
 
 ### Cloud Computing
 - [Amazon Web Services (AWS)](https://aws.amazon.com/es/)
