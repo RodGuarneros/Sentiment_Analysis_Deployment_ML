@@ -3,7 +3,21 @@
 
 ## Objective
 
-<b>Here you can find a web application aimed to forecast if a movie review previously written is positive or negative</b>. This model was built with a particular module in Amazon Web Services: SageMaker using [XGBoost](https://xgboost.readthedocs.io/en/latest/) (A optimized distributed gradient boosting library designed to be highly efficient, flexible and portable), based on Python language.
+<b>Here you can find a web application aimed to forecast if a movie review previously written is positive or negative</b>. This model was built with a particular module in Amazon Web Services: SageMaker using [XGBoost](https://xgboost.readthedocs.io/en/latest/) (A optimized distributed gradient boosting library designed to be highly efficient, flexible and portable) as well as [PyTorch for a Artifical Neural Network](https://pytorch.org/tutorials/beginner/blitz/neural_networks_tutorial.html), based on Python language.
+
+## Results example
+
+The web app is available at: https://rodguarneros.github.io/Sentiment_Analysis_Deployment_ML/ 
+
+#### The Web App looks like this:
+![Result1.jpg](https://github.com/RodGuarneros/Sentiment_Analysis_Deployment_ML/blob/main/images/Result1.jpg)
+
+#### If you write a positive movie review up, the result is:
+![Result2.jpg](https://github.com/RodGuarneros/Sentiment_Analysis_Deployment_ML/blob/main/images/Result2.jpg)
+
+#### If you write a negative movie review up, the result is:
+![Result3.jpg](https://github.com/RodGuarneros/Sentiment_Analysis_Deployment_ML/blob/main/images/Result3.jpg)
+
 
 ## General Approach
 
@@ -64,14 +78,6 @@ This Model is based on a recurrent neural network for the purpose of detemining 
 
 15. Delete the endpoint
 
-# What does review_to_words_do?
-
-# What are the five most frequently appearing words?
-
-# Create a word dictionary
-
-# Question: Understanding preocess_data and convert_and_pad_data
-
 # Sources
 
 Database:
@@ -87,5 +93,12 @@ Database:
   url       = {http://www.aclweb.org/anthology/P11-1015}
 }
 
-Libraries:
+### Libraries:
 [PyTorch](https://pytorch.org/)
+[BeautifulSoup](https://pypi.org/project/beautifulsoup4/)
+
+### Cloud Computing
+[Amazon Web Services (AWS)](https://aws.amazon.com/es/)
+[AWS SageMaker](https://aws.amazon.com/es/sagemaker/)
+[AWS Lambda](https://aws.amazon.com/es/lambda/)
+[AWS API GATEWAY](https://aws.amazon.com/es/api-gateway/)
