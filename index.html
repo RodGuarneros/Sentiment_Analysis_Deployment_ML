@@ -2,7 +2,13 @@
 <html lang="en">
     <head>
         <title>Sentiment Analysis Web App</title>
-        <meta charset="utf-8">
+	<H2 style="text-align:center;color:darkgreen;font-size:40px;">Sentiment Analysis Web App</H2>
+	<p style="text-align:center;color:darkgreen;font-size:20px;">By Rodrigo Guarneros</P>
+	<p style="text-align:center;color:darkgreen;font-size:20px;"><b>@RodGuarneros<b></P>
+	<hr>
+	<p style="text-align:center;color:blue;font-size:20px;">Just give a <i>movie review</i> and the <b>Machine Learning Model</b> tells you if it is positive or negative</P>
+	<hr>	
+	<meta charset="utf-8">
         <meta name="viewport"  content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -34,16 +40,16 @@
     <body>
 
         <div class="container">
-            <h1>Is your review positive, or negative?</h1>
-            <p>Enter your review below and click submit to find out...</p>
+            <h1 style="color:darkblue">Is your movie review positive, or negative?</h1>
+            <p style="color:darkblue;font-size:20px;">Enter your <i>movie review</i> below and click submit to find out...</p>
             <form method="POST"
-                  action="**REPLACE WITH PUBLIC API URL**"
+                  action="https://6u14xke0ag.execute-api.us-east-1.amazonaws.com"
                   onsubmit="return submitForm(this);" >                     <!-- HERE IS WHERE YOU NEED TO ENTER THE API URL -->
                 <div class="form-group">
-                    <label for="review">Review:</label>
-                    <textarea class="form-control"  rows="5" id="review">Please write your review here.</textarea>
+                    <label for="review" style="color:darkblue;font-size:20px;">Review:</label>
+                    <textarea class="form-control"  rows="5" id="review" style="color:gray;font-size:20px;">Please write your review here.</textarea>
                 </div>
-                <button type="submit" class="btn btn-default">Submit</button>
+                <button type="submit" class="btn btn-default" style="color:blue">Submit</button>
             </form>
             <h1 class="bg-success" id="result"></h1>
         </div>
